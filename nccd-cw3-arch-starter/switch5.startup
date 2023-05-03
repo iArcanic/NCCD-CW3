@@ -7,3 +7,4 @@ ip link set up dev eth1
 ip route add 172.16.1.0/21 via 10.16.0.0
 ip route add 172.16.0.0/21 via 10.16.0.2
 ip route add 10.0.0.4/21 via 10.16.0.1
+ip route add 80.64.157.254/16 via 10.16.0.4
